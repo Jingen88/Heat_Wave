@@ -33,7 +33,7 @@ const Hero = () => {
           className="absolute top-0 left-0 w-full h-full scale-[1.2] z-0"
         >
           <Image
-            src='/hero/Plumber-Hero-bg.png'
+            src='/Hero/Plumber-Hero-bg.png'
             alt='a plumber working'
             fill
             style={{ objectFit: 'contain' }}
@@ -47,7 +47,7 @@ const Hero = () => {
           className="absolute top-[-28] left-[16] w-full h-full scale-[1.26]"
         >
           <Image
-            src='/hero/Plumber-Hero.png'
+            src='/Hero/Plumber-Hero.png'
             alt='a plumber working'
             fill
             style={{ objectFit: 'contain' }}
@@ -82,7 +82,7 @@ const Hero = () => {
         
       </div>
       <div className='pr-30 mt-[-200]'>
-        <Image src={'/hero/trusted.png'} alt='trusted by customers logo' width={230} height={230} />
+        <Image src={'/Hero/trusted.png'} alt='trusted by customers logo' width={230} height={230} />
       </div>
     </div>
     </>

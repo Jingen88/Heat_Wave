@@ -67,7 +67,7 @@ const ServiceHighlights = () => {
         >
 
           <Image
-            src='/hero/tick.png'
+            src='/Hero/tick.png'
             alt='tick'
             width={87}
             height={87}
