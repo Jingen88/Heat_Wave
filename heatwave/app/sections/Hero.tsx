@@ -69,7 +69,9 @@ const Hero = () => {
           <div className='pl-25 pr-4 bg-[#1e2939] items-center flex flex-col  pt-3 pb-5 rounded-r-3xl mb-5'>
              <h2 className='pr-28'>Ready for reliable heating and plumbing? 
           </h2>
-          <h3 className='text-5xl md:text-[2.8rem]'><span className='text-[#fe903b]'>Don't wait!</span> Contact Heat Wave today.</h3>
+         
+<h3 className='text-5xl md:text-[2.8rem]'><span className='text-[#fe903b]'>Don&apos;t wait!</span> Contact Heat Wave today.</h3>
+
           </div>
          
         </div>
