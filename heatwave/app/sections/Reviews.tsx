@@ -16,7 +16,7 @@ const Reviews = () => {
                  initial={{ x: -300, opacity: 0 }}
                  animate={{ x: 0, opacity: 1 }}
                  transition={{ duration: 1, delay: 0.5 }}>
-          <Image src={'/Reviews/checka.png'} alt='Checkatrade logo and stars' width={400} height={400}/>
+          <Image src={'/Reviews/Checka.png'} alt='Checkatrade logo and stars' width={400} height={400}/>
         </motion.div>
 
         <motion.div
