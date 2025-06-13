@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+
+.antonio {
+  font-family: 'Antonio', sans-serif;
+}
+
+
+
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Replace with desired weight */
+  font-style: normal;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+.antonio {
+  font-family: "Antonio", roboto-mono, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Replace with desired weight */
+  font-style: normal;
+}
+
+.navbar-bg {
+  background: url('/Navbar-bg.png');
+  background-size: cover;
+  height: 35vh;
+  width: 100%;
+  ;
+}
+
+.blue-bg {
+  background: url('/blue-bg.png');
+  background-size: cover;
+  no-repeat: no-repeat;
+  height: full;
+  width: 100%;
+}
