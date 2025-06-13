@@ -58,12 +58,14 @@ const ServiceHighlights = () => {
       initial="hidden"
       animate="show"
     >
-      {highlights.map((item, idx) => (
+     
+      {highlights.map((item) => (
         <motion.div
           key={item.title}
           className='relative flex flex-col antonio text-white text-2xl md:text-xl pl-7 md:pl-4'
           variants={itemVariants}
         >
+
           <Image
             src='/hero/tick.png'
             alt='tick'
