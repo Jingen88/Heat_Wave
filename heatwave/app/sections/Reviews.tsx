@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 
 const Reviews = () => {
   return (
-    <div className='flex flex-col items-center justify-center text-center pt-35 pb-20  '>
+    <div className='flex flex-col items-center justify-center text-center pt-28 pb-16  '>
       <h4 className='text-6xl antonio text-white'>Trusted By Our Clients</h4>
       <div className='flex flex-row items-center justify-evenly w-full gap-30 mt-5'>
 
@@ -26,7 +26,7 @@ const Reviews = () => {
         <Image src={'/Reviews/google.png'} alt='Google logo and stars' width={299} height={299} className='pt-1.5'/>
         </motion.div>
       </div>
-<div className='mt-10 flex flex-col items-center justify-center'>
+<div className='mt-3 flex flex-col items-center justify-center'>
 <Cards/>
 </div>
 

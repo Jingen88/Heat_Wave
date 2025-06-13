@@ -38,7 +38,7 @@ const Footer = () => {
         </div>  
 
     
-    <div className='flex flex-col  text-left antonio text-[#dfdddb]'>
+    <div className='flex flex-col text-left antonio text-[#dfdddb]'>
       <p className='text-2xl font-bold'>Adress:</p>
       <p className='text-md'>7 Getliffe Road</p>
       <p className='text-md'>LE7 4GY </p>
@@ -48,8 +48,8 @@ const Footer = () => {
   </div>
 
 </div>
-<div className="  absolute bottom-0 left-135 flex flex-col items-center antonio mx-auto text-center text-[#dfdddb] text-lg  w-fullcursor-pointer ">
-          <Image  className='mb-0'src={'/logo2.png'} alt='logo' width={100} height={100} />
+<div className="  absolute bottom-0 pb-3 left-135 flex flex-col items-center antonio mx-auto text-center text-[#dfdddb] text-lg  w-fullcursor-pointer ">
+         
           <p className="text-sm">© {new Date().getFullYear()} Heatwave. All rights reserved.</p>
           <p className="text-sm">Designed by <a href="https://tamash.netlify.app/" className="text-blue-400 hover:underline">Tamás</a></p>
 </div>
