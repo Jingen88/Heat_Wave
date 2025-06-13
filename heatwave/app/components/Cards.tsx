@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-// import Image from 'next/image'; // Removed next/image as it's not supported in this environment
+import Image from 'next/image'; // Removed next/image as it's not supported in this environment
 import { motion } from 'framer-motion';
 
 const Cards = () => {
@@ -99,8 +99,8 @@ const Cards = () => {
             >
               <div className='flex flex-row items-center justify-center gap-40 mb-4'>
                   {/* Replaced Next.js Image component with standard <img> tag */}
-                  <img src={'/Reviews/stars.png'} alt='stars logo' width={100} height={100}/>
-                  <img src={card.logo} alt='company logo' width={50} height={50}/>
+                  <Image src={'/Reviews/stars.png'} alt='stars logo' width={100} height={100}/>
+                  <Image src={card.logo} alt='company logo' width={50} height={50}/>
               </div>
               <p className='text-gray-800'>
                   {card.text}
