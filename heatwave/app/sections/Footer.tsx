@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-    <div className='flex flex-col bg-[#1e2939] px-5 py-7'>
+    <div className=' relative flex flex-col bg-[#1e2939] px-5 py-7'>
 <div className='flex flex-row justify-between items-center antonio  '>
     <div className=' flex flex-col mb-15' >
       <div className='flex flex-row justify-center items-center gap-4 mb-4'>
@@ -48,7 +48,7 @@ const Footer = () => {
   </div>
 
 </div>
-<div className=" flex flex-col items-center antonio mx-auto text-center text-[#dfdddb] text-lg  w-fullcursor-pointer ">
+<div className="  absolute bottom-0 left-135 flex flex-col items-center antonio mx-auto text-center text-[#dfdddb] text-lg  w-fullcursor-pointer ">
           <Image  className='mb-0'src={'/logo2.png'} alt='logo' width={100} height={100} />
           <p className="text-sm">© {new Date().getFullYear()} Heatwave. All rights reserved.</p>
           <p className="text-sm">Designed by <a href="https://tamash.netlify.app/" className="text-blue-400 hover:underline">Tamás</a></p>
