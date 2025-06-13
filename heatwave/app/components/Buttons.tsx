@@ -1,5 +1,6 @@
 import React from "react";
 import { FaWrench, FaWater, FaFire } from "react-icons/fa";
+import { JSX } from "react/jsx-dev-runtime";
 
 type Variant = "blue" | "amber";
 type IconType = "wrench" | "water" | "fire";
