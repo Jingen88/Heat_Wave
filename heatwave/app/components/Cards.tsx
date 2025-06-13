@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 // import Image from 'next/image'; // Removed next/image as it's not supported in this environment
 import { motion } from 'framer-motion';
 
