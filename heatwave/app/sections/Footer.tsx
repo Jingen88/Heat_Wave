@@ -6,8 +6,8 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-    <div className=' relative flex flex-col bg-[#1e2939] px-5 py-7'>
-<div className='flex flex-row justify-between items-center antonio  '>
+   <div className='relative flex flex-col gap-6 bg-[#1e2939] px-2 sm:px-5 py-5 sm:py-7'>
+  <div className='flex flex-col sm:flex-row justify-between items-center sm:items-start antonio gap-6'>
     <div className=' flex flex-col mb-15' >
       <div className='flex flex-row justify-center items-center gap-4 mb-4'>
         <Image className='hover:shadow-lg cursor-pointer
