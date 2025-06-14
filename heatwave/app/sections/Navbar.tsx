@@ -20,7 +20,7 @@ const Navbar = () => {
             <p className='text-2xl mt-2 font-semibold antonio'>Tel:0121-345-9821</p>
           </div>
 
-          <div className='md:hidden antonio text-2xl bg-gray-900 px-50 py-1 '>
+          <div className='md:hidden antonio text-2xl bg-gray-900  py-1 w-[800px] flex justify-center items-end text-center'> 
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-white focus:outline-none'>
               {/* <svg
                 className='w-8 h-8'
@@ -28,7 +28,7 @@ const Navbar = () => {
                 stroke='currentColor'
                 viewBox='0 0 24 24'
                 xmlns='http://www.w3.org/2000/svg'
-              > */}<p className=''> MENU
+              > */}<p className='mx-auto '> MENU
                 {isMenuOpen ? (
                   <path
                     strokeLinecap='round'
@@ -52,7 +52,7 @@ const Navbar = () => {
         {/* Dropdown Menu - positioned absolutely at the bottom */}
         <div
           className={`
-            md:hidden absolute z-30  left-0 w-full bg-gray-900 transition-all duration-300 ease-in-out
+            md:hidden absolute z-30  left-0 mx-auto w-full bg-gray-900 transition-all duration-300 ease-in-out
             ${isMenuOpen ? 'block opacity-100' : 'hidden opacity-0'}
           `}
         >

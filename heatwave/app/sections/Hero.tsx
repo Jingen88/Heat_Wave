@@ -26,7 +26,7 @@ const Hero = () => {
          <ServiceHighlights />
        </div>
       
-      <div className="relative w-[98%] md:w-[510px] h-[390px] md:h-[795px] flex-shrink-0 mt-10 md:mt-0 z-0 overflow-hidden mx-auto">
+      <div className="relative w-[98%] md:w-[510px] h-[390px] md:h-[795px] flex-shrink-4 mt-10 md:mt-0 z-0 overflow-hidden mx-auto">
         <motion.div
           initial={{ x: 300, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
