@@ -20,7 +20,7 @@ const Navbar = () => {
             <p className='text-2xl mt-2 font-semibold antonio'>Tel:0121-345-9821</p>
           </div>
 
-          <div className='md:hidden'>
+          <div className='md:hidden antonio text-2xl bg-gray-900 px-50 py-1 '>
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-white focus:outline-none'>
               {/* <svg
                 className='w-8 h-8'
@@ -28,7 +28,7 @@ const Navbar = () => {
                 stroke='currentColor'
                 viewBox='0 0 24 24'
                 xmlns='http://www.w3.org/2000/svg'
-              > */}<p className='antonio text-2xl bg-gray-900 px-50 py-1'> MENU
+              > */}<p className=''> MENU
                 {isMenuOpen ? (
                   <path
                     strokeLinecap='round'
@@ -68,7 +68,7 @@ const Navbar = () => {
         </div>
 
         {/* Original Desktop Navigation - hidden on mobile */}
-        <div className='bg-gray-900 pb-4 hidden md:block antonio'>
+        <div className='bg-gray-900 pb-4 hidden md:block w-full z-30 antonio'>
           <div className='flex justify-around items-center space-x-8'>
             <Link href='/' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Home</Link>
             <Link href='/about' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Plumbing</Link>

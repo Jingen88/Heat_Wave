@@ -79,6 +79,14 @@ img, .responsive-img {
   ;
 }
 
+.navbar-bg-mobile {
+  background: url('/Navbar-bg.png');
+  background-size: cover;
+  height: 25vh;
+  width: 100%;
+  ;
+}
+
 .blue-bg {
   background: url('/blue-bg.png');
   background-size: cover;
