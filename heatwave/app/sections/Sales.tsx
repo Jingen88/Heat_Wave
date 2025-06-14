@@ -5,8 +5,8 @@ import RotatingText from '../components/RotatingText'
 
 const Sales = () => {
   return (
-    <div className='flex flex-row flex-wrap md:flex-nowrap items-center justify-center pt-0 p-2 '>
-      <Image className='pt-9' src={'/Van.png'} alt='van with a colleague' width={500} height={1}/>
+    <div className='flex flex-row flex-wrap md:flex-nowrap items-center justify-center pt-0 md:px-2 p-2'>
+      <Image className='pt-12' src={'/Van.png'} alt='van with a colleague' width={500} height={1}/>
       <div className='flex flex-col items-center justify-center w-full'>
         <h4 className='md:pb-3 text-5xl md:text-8xl md:text-left font-semibold antonio text-white text-center pt-5'>
           Providing{" "}
