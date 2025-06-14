@@ -20,8 +20,8 @@ const Navbar = () => {
             <p className='text-2xl mt-2 font-semibold antonio'>Tel:0121-345-9821</p>
           </div>
 
-          <div className='md:hidden antonio text-2xl bg-gray-900  py-1 w-[800px] flex justify-center items-end text-center'> 
-            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-white focus:outline-none'>
+          <div className='md:hidden antonio text-2xl bg-gray-900  py-1 w-[800px] inline-block text-center'> 
+            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-white focus:outline-none focus:text-[#fe903b]'>
               {/* <svg
                 className='w-8 h-8'
                 fill='none'

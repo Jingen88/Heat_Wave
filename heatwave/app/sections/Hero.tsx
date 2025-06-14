@@ -15,7 +15,7 @@ const Hero = () => {
           initial={{ x: -300, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0 }}>
-        <h1 className=' md:mt-10 mt-15 text-4xl md:text-6xl font-bold antonio text-white text-center md:text-left md:mt-10 md:pl-4 md:pl-4 md:pr-0'>
+        <h1 className='  mt-10 text-4xl md:text-6xl font-bold antonio text-white text-center md:text-left md:mt-10 md:pl-4 md:pl-4 md:pr-0'>
   Your Trusted Choice for<br />
   <span className='text-[#fe903b] text-6xl md:text-8xl md:leading-30 py-3'>Heating</span> & <span className='text-[#45fbdb] text-6xl md:text-8xl md:leading-30 py-3'>Plumbing</span>
   <br />
