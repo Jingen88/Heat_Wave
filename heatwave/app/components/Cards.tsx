@@ -20,8 +20,24 @@ const Cards = () => {
     {
       text: "Highly recommend Heatwave for any plumbing work. Had a persistent leak under the sink that several others couldn't fix. Their plumber found the issue right away and sorted it out without any fuss. Expert knowledge and a friendly attitude.",
       author: "— Emily R., Loughborough",
-      logo: '/Reviews/small-g.png' // Assuming 'small-g' for the third card as well
+      logo: '/Reviews/small-g.png' 
+    },
+      {
+      text: "Fantastic experience with Heatwave! We called about a blocked drain, and they were at our doorstep very quickly. The technician was polite, worked cleanly, and got the job done fast. It's great to have a local company you can truly rely on.",
+      author: "— Mark T., Enderby",
+      logo: '/Reviews/small-c.png'
+    },
+    {
+      text: "Heatwave consistently provides excellent service for our annual boiler checks. They're always on time, thorough, and their engineers are very respectful of our home. It gives us great peace of mind knowing our heating is in such capable hands.",
+      author: "— Joanne W., Narborough",
+      logo: '/Reviews/small-g.png'
+    },
+    {
+      text: "Our hot water stopped working unexpectedly, and Heatwave came to the rescue! Their 24/7 customer support was a lifesaver, and the repair was done efficiently the next morning. They are definitely our go-to for any heating and plumbing needs in Leicestershire from now on.",
+      author: "— Ben C., Blaby",
+      logo: '/Reviews/small-c.png'
     }
+    
   ];
 
   // Duplicate the content to ensure a smooth, continuous loop
@@ -97,12 +113,12 @@ const Cards = () => {
               // Removed hover:scale-105 hover:-translate-y-1 from here as it conflicts slightly with the animation pause.
               // The primary hover effect is pausing the scroll.
             >
-              <div className='flex flex-row items-center justify-center gap-40 mb-4'>
+              <div className='flex flex-row items-center justify-center md:gap-40 gap-30 mb-4'>
                   {/* Replaced Next.js Image component with standard <img> tag */}
                   <Image src={'/Reviews/stars.png'} alt='stars logo' width={100} height={100}/>
                   <Image src={card.logo} alt='company logo' width={50} height={50}/>
               </div>
-              <p className='text-gray-800'>
+              <p className='text-gray-800 text-justify md:text-[1rem] text-sm '>
                   {card.text}
               </p>
               <p className='font-bold text-xl pt-3 text-gray-900'>

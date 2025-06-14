@@ -19,11 +19,43 @@ html, body {
   font-size: 16px;
 }
 
-@media (max-width: 640px) {
-  html, body {
-    font-size: 15px;
+/* ...existing code... */
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .sales-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .sales-section .sales-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .sales-section img {
+    width: 80%;
+    max-width: 200px;
+    margin: 0 auto 1rem auto;
+    display: block;
+  }
+
+  .sales-section .sales-details {
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0 auto;
+  }
+
+  .sales-section .sales-details p {
+    font-size: 0.9rem;
+    padding: 0.25rem 0;
   }
 }
+
+/* ...existing code... */
 
 img, .responsive-img {
   max-width: 100%;
@@ -54,3 +86,8 @@ img, .responsive-img {
   height: full;
   width: 100%;
 }
+
+
+
+/* Mobile styles */
+

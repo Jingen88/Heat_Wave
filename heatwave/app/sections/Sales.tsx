@@ -5,14 +5,14 @@ import RotatingText from '../components/RotatingText'
 
 const Sales = () => {
   return (
-    <div className='flex flex-row items-center justify-center pt-0 p-2'>
+    <div className='flex flex-row flex-wrap md:flex-nowrap items-center justify-center pt-0 p-2 '>
       <Image className='pt-9' src={'/Van.png'} alt='van with a colleague' width={500} height={1}/>
-      <div>
-        <h4 className='pb-3 line-clamp-3 text-8xl md:text-8xl text-left font-semibold antonio text-white pt-5'>
+      <div className='flex flex-col items-center justify-center w-full'>
+        <h4 className='md:pb-3 text-5xl md:text-8xl md:text-left font-semibold antonio text-white text-center pt-5'>
           Providing{" "}
           <RotatingText
             texts={['reliable', 'efficient', 'friendly']}
-            mainClassName="inline-flex bg-black text-[#fe903b] px-2 pb-1 rounded-lg items-center"
+            mainClassName="inline-flex bg-gray-900 text-[#fe903b] px-2 md:py-2 mt-2 rounded-lg items-center"
             staggerFrom={"last"}
             initial={{ y: "100%" }}
             animate={{ y: 0 }}

@@ -7,7 +7,7 @@ const containerVariants = {
   hidden: {},
   show: {
     transition: {
-      staggerChildren: 0.25,
+      staggerChildren: 0.35,
     },
   },
 }
@@ -62,7 +62,7 @@ const ServiceHighlights = () => {
       {highlights.map((item) => (
         <motion.div
           key={item.title}
-          className='relative flex flex-col antonio text-white text-2xl md:text-xl pl-7 md:pl-4'
+          className='relative flex flex-col antonio text-lg text-white md:text-2xl md:text-xl md:pl-7 md:pl-4 py-2'
           variants={itemVariants}
         >
 
@@ -71,11 +71,11 @@ const ServiceHighlights = () => {
             alt='tick'
             width={87}
             height={87}
-            className="absolute -left-0 -top-3 z-10"
+            className="absolute md:-left-0 md:-top-2 z-10 -left-2 -top-4 hidden md:block"
             style={{ pointerEvents: 'none' }}
           />
           <p
-            className={`bg-[#1e2939] py-1 rounded-2xl ${item.width} pl-19 ${item.pr} inline-block`}
+            className={`bg-[#1e2939] py-1 rounded-2xl ${item.width} md:pl-15 pl-20 md:text-left  md:m-0 mx-auto ${item.pr} inline-block`}
             dangerouslySetInnerHTML={{ __html: `<span class='text-[#fe903b] font-bold'>${item.title}</span> ${item.desc}` }}
           />
         </motion.div>
