@@ -31,10 +31,9 @@ const Footer = () => {
                <Link href='/' className='text-[#dfdddb] cursor-pointer  hover:text-[#fe903b] text-md4'>Home</Link>
                <Link href='/about' className='text-[#dfdddb] cursor-pointer  hover:text-[#fe903b] text-md'>Plumbing</Link>
                <Link href='/services' className='text-[#dfdddb] cursor-pointer  hover:text-[#fe903b] text-md'>Heating</Link>
-               <Link href='/contact' className='text-[#dfdddb] cursor-pointer  hover:text-[#fe903b] text-md'>Customer</Link>
-                <Link href='/reviews' className='text-[#dfdddb] cursor-pointer  hover:text-[#fe903b] text-md'>Reviews</Link>
+                <Link href='/reviews' className='text-[#dfdddb] cursor-pointer  hover:text-[#fe903b] text-md'> Customer Reviews</Link>
                 <Link href='/blog' className='text-[#dfdddb] cursor-pointer  hover:text-[#fe903b] text-md'>Blog</Link>
-                <Link href='/contact' className='text-[#dfdddb] cursor-pointer  hover:text-[#fe903b] text-md'>Contact</Link>
+                <Link href='/contact' className='text-[#dfdddb] cursor-pointer  hover:text-[#fe903b] text-md'>Contact Us</Link>
         </div>  
 
     

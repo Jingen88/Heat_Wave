@@ -60,8 +60,7 @@ const Navbar = () => {
             <Link href='/' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Home</Link>
             <Link href='/about' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Plumbing</Link>
             <Link href='/services' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Heating</Link>
-            <Link href='/contact' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Customer</Link>
-            <Link href='/reviews' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Reviews</Link>
+            <Link href='/Reviews' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Customer Reviews</Link>
             <Link href='/blog' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Blog</Link>
             <Link href='/contact' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Contact</Link>
           </div>
@@ -73,10 +72,9 @@ const Navbar = () => {
             <Link href='/' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Home</Link>
             <Link href='/about' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Plumbing</Link>
             <Link href='/services' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Heating</Link>
-            <Link href='/contact' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Customer</Link>
-            <Link href='/reviews' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Reviews</Link>
+            <Link href='/reviews' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'> Customer Reviews</Link>
             <Link href='/blog' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Blog</Link>
-            <Link href='/contact' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Contact</Link>
+            <Link href='/contact' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Contact Us</Link>
           </div>
         </div>
       </div>
