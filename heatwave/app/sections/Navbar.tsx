@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <div className='navbar-bg z-10'>
-        <nav className='flex flex-col md:flex-row md:justify-between items-center text-white pt-3 px-4 relative'> {/* Added 'relative' here */}
+        <nav className='flex flex-col md:flex-row md:justify-between items-center text-white gap-4 px-4 relative'> {/* Added 'relative' here */}
           <Image src='/logo.png' alt='company logo' width={'280'} height={'280'} />
 
           <div className='text-center pb-2 hidden md:block'>
@@ -20,7 +20,7 @@ const Navbar = () => {
             <p className='text-2xl mt-2 font-semibold antonio'>Tel:0121-345-9821</p>
           </div>
 
-          <div className='md:hidden antonio text-2xl bg-gray-900  py-1 w-[800px] inline-block text-center'> 
+          <div className='md:hidden antonio text-2xl bg-gray-900  items-center  w-[800px] inline-block text-center'> 
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-white focus:outline-none focus:text-[#fe903b]'>
               {/* <svg
                 className='w-8 h-8'
@@ -56,7 +56,7 @@ const Navbar = () => {
             ${isMenuOpen ? 'block opacity-100' : 'hidden opacity-0'}
           `}
         >
-          <div className='flex flex-col space-y-2 py-4 items-center antonio'>
+          <div className='flex flex-col space-y-2 py-2 items-center antonio'>
             <Link href='/' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Home</Link>
             <Link href='/about' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Plumbing</Link>
             <Link href='/services' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Heating</Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
         </div>
 
         {/* Original Desktop Navigation - hidden on mobile */}
-        <div className='bg-gray-900 pb-4 hidden md:block w-full z-30 antonio'>
+        <div className='bg-gray-900 py-2 hidden md:block w-full z-30 antonio'>
           <div className='flex justify-around items-center space-x-8'>
             <Link href='/' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Home</Link>
             <Link href='/about' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4'>Plumbing</Link>
