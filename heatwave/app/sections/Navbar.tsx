@@ -56,7 +56,7 @@ const Navbar = () => {
             ${isMenuOpen ? 'block opacity-100' : 'hidden opacity-0'}
           `}
         >
-          <div className='flex flex-col space-y-2 py-2 items-center antonio'>
+          <div className='flex flex-col space-y-2 py-4 items-center antonio'>
             <Link href='/' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Home</Link>
             <Link href='/about' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Plumbing</Link>
             <Link href='/services' className='text-[#dfdddb] hover:text-[#fe903b] text-2xl px-4 py-2'>Heating</Link>
